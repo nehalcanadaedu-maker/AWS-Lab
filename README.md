@@ -54,6 +54,7 @@ OR
 Wazuh Integration
 Deploy Wazuh agent on EC2
 Connect to Wazuh manager for alerting
+
 🚨 Simulated Security Scenarios
 Multiple failed SSH/RDP login attempts
 IAM user privilege changes
