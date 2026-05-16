@@ -13,12 +13,13 @@ Enable logging and monitoring using AWS CloudTrail & CloudWatch
 Detect suspicious activity in AWS environments
 Simulate security incidents
 Analyze logs for threat hunting
+
 🏗️ Architecture
 AWS EC2 (Linux/Windows instance)
 IAM Users & Roles
 AWS CloudTrail (API logging)
 Amazon CloudWatch (monitoring & alerts)
-Optional: Splunk / Wazuh integration for SIEM
+
 ⚙️ Setup Instructions
 1. Create AWS Free Tier Account
 Sign up at: https://aws.amazon.com/free
@@ -40,24 +41,5 @@ Monitor:
 Login attempts
 EC2 activity
 API calls
-5. Security Monitoring (Optional SIEM Integration)
-Splunk Integration
-Install Splunk Universal Forwarder on EC2
-Forward CloudWatch / system logs to Splunk
-Build dashboards for:
-Failed logins
-Privilege escalation attempts
-Unusual API activity
 
-OR
 
-Wazuh Integration
-Deploy Wazuh agent on EC2
-Connect to Wazuh manager for alerting
-
-🚨 Simulated Security Scenarios
-Multiple failed SSH/RDP login attempts
-IAM user privilege changes
-Unauthorized API calls using AWS CLI
-Public S3 bucket exposure test
-Suspicious EC2 activity monitoring
